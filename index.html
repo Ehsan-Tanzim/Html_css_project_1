@@ -3,30 +3,62 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Explore basic css</title>
+  <title>Form </title>
   <style>
-    li{
-      color: indianred;
-
-    }
-    p{
-      background-color: blue;
-    }
-    h3{
-      color: blueviolet;
+    label{
+      display: block;
+      margin-top: 10px;
     }
   </style>
 </head>
 <body>
-   <h3 style="color: red;">learning basic css</h3>
-   <h4 style="background-color: aqua;">inline css</h4>
-   <p>Css meaning: Cascading style sheet</p>
-   <p>style is colorful</p>
-   <p>short form is css</p>
-   <ul>
-    <li> internal</li>
-    <li> external</li>
-    <li> inline</li>
-   </ul>
+  <header>
+
+  </header>
+  <main>
+    <section>
+      <h2>Please fill the form</h2>
+      <form >
+        <label for="name">Your name
+          <input id="name" type="text" placeholder="Your name">
+        </label>
+        <label for="email"> Email
+          <input type="email" placeholder="Your email">
+        </label>
+        <fieldset>
+          <legend>Pick one pitha</legend>
+
+          <label for="Chitoy">
+            <input type="radio" name="pitha">Chitoy
+          </label>
+        <label>
+            <input type="radio" name="pitha">vapa
+          </label>
+          
+        </fieldset>
+        <fieldset>
+          <legend>Vorta</legend>
+          <label for="vorta">
+            <input type="checkbox" name="vorta">shorisha
+          </label>
+        </label><input type="checkbox" name="vorta">shutki
+          </label>
+        <label>
+            
+            <input type="checkbox" name="vorta">kalizira
+          </label>
+        </fieldset>
+        <fieldset>
+          <input type="reset" value="reset"> 
+          <input type="submit" value="submit"> 
+        </fieldset>
+
+      </form>
+    </section>
+
+  </main>
+  <footer>
+
+  </footer>
 </body>
 </html>
